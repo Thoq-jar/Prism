@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Prism
+Comment= A fully-fetured version of gnome with all the fetures that you would ever want from kde in a modern, sleek package.
+Exec=/bin/custom_de.sh
+Type=Application
