@@ -12,7 +12,7 @@ sudo apt install lxqt-panel
 sleep 1
 sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
 sleep 1
-git clone # PLACEHOLDER
+git clone https://github.com/Thoq-jar/Prism.git
 sleep 1
 cd Prism
 sleep 1
