@@ -7,6 +7,7 @@ echo "-------------------------------------"
 echo " "
 
 function apt_install {
+    git clone https://github.com/Thoq-jar/Prism.git
     sudo mkdir /usr/share/backgrounds/Prism
     sudo cp prism_wallpaper.jpg /usr/share/backgrounds/Prism
     sudo cp prism_wallpaper.jpg /usr/share/backgrounds
@@ -16,6 +17,7 @@ function apt_install {
 }
 
 function pacman_install {
+     git clone https://github.com/Thoq-jar/Prism.git
     sudo mkdir /usr/share/backgrounds/Prism
     sudo cp prism_wallpaper.jpg /usr/share/backgrounds/Prism
     sudo cp prism_wallpaper.jpg /usr/share/backgrounds
@@ -25,6 +27,7 @@ function pacman_install {
 }
 
 function dnf_install {
+    git clone https://github.com/Thoq-jar/Prism.git
     sudo mkdir /usr/share/backgrounds/Prism
     sudo cp prism_wallpaper.jpg /usr/share/backgrounds/Prism
     sudo cp prism_wallpaper.jpg /usr/share/backgrounds
