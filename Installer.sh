@@ -5,34 +5,54 @@ echo "Prism Rev.1 Setup | Developed by Thoq"
 echo "-------------------------------------"
 
 echo " "
-echo " "
 
 function apt_install {
+    sudo mkdir /usr/share/backgrounds/Prism
+    sudo cp prism_wallpaper.jpg /usr/share/backgrounds/Prism
+    sudo cp prism_wallpaper.jpg /usr/share/backgrounds
+    sleep 2
     echo "Installing with APT..."
     bash ./Include/apt_install.sh
 }
 
 function pacman_install {
+    sudo mkdir /usr/share/backgrounds/Prism
+    sudo cp prism_wallpaper.jpg /usr/share/backgrounds/Prism
+    sudo cp prism_wallpaper.jpg /usr/share/backgrounds
+    sleep 2
     echo "Installing with Pacman..."
     bash ./Include/arch_install.sh
 }
 
 function dnf_install {
+    sudo mkdir /usr/share/backgrounds/Prism
+    sudo cp prism_wallpaper.jpg /usr/share/backgrounds/Prism
+    sudo cp prism_wallpaper.jpg /usr/share/backgrounds
+    sleep 2
     echo "Installing with DNF..."
     bash ./Include/dnf_install.sh
 }
 
 function apt_uninstall {
+    sudo rm -rf /usr/share/backgrounds/Prism
+    sudo rm -rf /usr/share/backgrounds/prism_wallpaper.jpg
+    sleep 2
     echo "Uninstalling with APT..."
     bash ./Include/apt_uninstall.sh
 }
 
 function pacman_uninstall {
+    sudo rm -rf /usr/share/backgrounds/Prism
+    sudo rm -rf /usr/share/backgrounds/prism_wallpaper.jpg
+    sleep 2
     echo "Uninstalling with Pacman..."
     bash ./Include/arch_uninstall.sh
 }
 
 function dnf_uninstall {
+    sudo rm -rf /usr/share/backgrounds/Prism
+    sudo rm -rf /usr/share/backgrounds/prism_wallpaper.jpg
+    sleep 2
     echo "Uninstalling with DNF..."
     bash ./Include/dnf_uninstall.sh
 }
@@ -100,4 +120,3 @@ case $option in
         echo "Invalid choice. Exiting..."
         ;;
 esac
-
